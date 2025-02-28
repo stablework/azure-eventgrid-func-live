@@ -1,5 +1,5 @@
 import { app, EventGridEvent, InvocationContext } from "@azure/functions";
-import Pusher from "pusher";
+import * as Pusher from "pusher";
 
 async function fetchData() {
     try {
